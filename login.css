@@ -1,0 +1,164 @@
+
+body {
+    padding: 0px;
+    margin: 0;
+      background-color: #292828;  
+    
+
+    overflow: hidden;
+
+    font-family: Raleway, sans-serif;
+
+}
+
+
+
+
+.login-container{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin-top: -3vh;
+
+}
+
+.logo_container{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3vh;
+}
+
+.logo_container h2{
+
+    font-family: Raleway, sans-serif;
+    color: #7f7f7f ;
+    font-weight: 300;
+    font-size: 25px;
+    
+}
+
+.formContainer p{
+
+
+    font-family: Raleway, sans-serif;
+    color: #7f7f7f ;
+    font-size: 14px;
+}
+.login_logo{
+    width: 100px;
+}
+.formContainer{
+    border: none;
+    border-radius: 5px;
+    width: 29%;
+    background-color: #FFFFFF;
+    padding: 3vh;
+}
+.formContainer h2{
+    color: #7f7f7f;
+    font-weight: 300;
+    font-size: 24px;
+    margin: 8px 0px 0px 0px;
+}
+.icon-container {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.icon-input {
+    padding-left: 30px; /* Adjust this value to match the icon size */
+}
+
+.icon-container i {
+    position: absolute;
+    left: 10px; /* Adjust this value to position the icon where you want */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.icon-container input{
+
+    height: 4vh;
+    width: 91%;
+}
+
+.checkboxAndButtton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.login-button {
+    background-color: #B33426; /* Set the background color to blue (you can change it to your desired color) */
+    color: #fff; /* Set the text color to white */
+    height: 35px; /* Set the height of the button */
+    border: none; /* Remove the default button border */
+    border-radius: 4px; /* Add rounded corners */
+    padding: 0px 12px; /* Add padding to adjust the button size */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+.arrow-icon {
+     /* Adjust the margin to separate the text and the icon */
+    font-size: 13px; /* Adjust the icon size as needed */
+}
+
+/* Change the color of the arrow icon */
+.arrow-icon i {
+    color: white; /* Replace with your desired color code */
+}
+
+
+
+/* CSS for screens with a width from 320px to 576px */
+@media screen and (min-width: 320px) and (max-width: 500px) {
+    
+    
+    .formContainer {
+        width: 85%
+    }
+
+   
+
+    .icon-container input {
+        width: 90%
+    }
+
+    
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    
+
+    .formContainer {
+        width: 85%
+    }
+    .icon-container input {
+        width: 94%
+    }
+
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 980px) {
+    
+    .formContainer {
+        width: 85%
+    }
+
+    
+
+    .icon-container input {
+        width: 95%
+    }
+
+  
+    
+}

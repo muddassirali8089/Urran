@@ -1,0 +1,1337 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    padding-top: 140px;
+}
+
+html {
+     scroll-padding-top: 24vh; 
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #BB2026;
+    text-align: center;
+}
+
+.my_header {
+
+
+
+width: 100%;
+    
+}
+
+
+.carosalMain{
+    padding-top: 3vh;
+}
+.moving_text {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+
+    margin: 13px;
+
+}
+
+.nav-item .nav-link{
+
+    font-size: 1.2rem;
+    padding-left: 1.2rem;
+}
+
+.nav-item{
+    padding-left: 1.2rem;
+}
+/* .navbar {
+    position: fixed;
+    
+    width: 82%;
+    background-color: #F7F8FB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0px 9vw;
+    
+
+   
+    height: 78px;
+} */
+
+/* .logo img {
+
+    width: 63%;
+    padding-left: 17px;
+    
+} */
+
+/* .nav-links {
+    display: flex;
+    align-items: center;
+} */
+
+/* .nav-links a {
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+    margin: 0 13.5px;
+    font-size: 18px;
+    font-weight: 100;
+   
+
+} */
+
+/* .burger-menu {
+    display: none;
+    
+    flex-direction: column;
+    cursor: pointer;
+} */
+
+/* .bar {
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    margin: 2px 0;
+} */
+
+/* @media screen and (max-width: 980px) {
+
+    .navbar {
+        height: 80px;
+        background-color: #F7F8FB;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 9vw;
+        margin-top: 8.7vh;
+        background-color: #FFFFFF;
+
+    }
+
+    .logo img {
+
+        width: 63%;
+        padding-left: 16px;
+        padding-bottom: 0px;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 15.3vh;
+        left: 0;
+        border-top: 3px solid #2ea3f2;
+        background-color: #6E6E6F;
+        width: 100%;
+        align-items: start;
+        visibility: visible;
+        z-index: 9999;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        margin-left: 11vw;
+        padding: 5% 0px;
+        opacity: 85%;
+
+
+
+    }
+
+    .nav-links.active {
+        display: flex;
+
+    }
+
+    .nav-links a {
+        color: #FFFFFF;
+        line-height: 23px;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 10px 5%;
+    }
+
+    .burger-menu {
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+    }
+} */
+
+/* @media screen and (min-width: 981px) and (max-width: 1350px) {
+
+
+    .navbar {
+        height: 80px;
+        background-color: #F7F8FB;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 9vw;
+        margin-top: 8.8vh;
+
+    }
+
+} */
+
+
+.myHome {
+    display: flex;
+    /* Use flexbox to place the children in one line */
+    padding-bottom: 8vh;
+    padding-bottom: 3vh;
+    background-color: #F7F8FB;
+
+    
+    position: relative;
+    /* Add position relative to establish stacking context */
+    
+
+}
+
+
+.myHomeleft {
+    width: 35%;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    text-align: center;
+    height: 53vh;
+}
+
+.myHomeleft h1 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    line-height: 50px;
+    font-size: 40px;
+    color: #000000;
+    padding-right: 2vh;
+
+}
+
+
+.myHomeright {
+    width: 65%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.homeImg {
+    position: relative;
+    left: 2.3vw;
+    bottom: 3vh;
+    max-width: 85%;
+   
+
+    height: 96%;
+    width: auto;
+
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 980px) {
+
+    /* Hide the homerightdiv */
+    .myHomeright {
+        display: none;
+    }
+
+    /* Make the homeleftdiv take up 100% width */
+    .myHomeleft {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 40vh;
+    }
+
+
+}
+
+.About {
+    display: flex;
+    padding-top: 12vh;
+    padding-bottom: 6vh;
+    background-color: #FFFFFF;
+}
+
+.aboutLeft {
+    width: 55%;
+    text-align: center;
+
+
+}
+
+.aboutImg {
+    max-width: 100%;
+    max-height: 98%;
+    text-align: center;
+    padding-left: 5vw;
+}
+
+.aboutright {
+
+    width: 45%;
+
+    padding-right: 6%;
+
+    line-height: 24px;
+}
+
+.urranHeading {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 3vh;
+    color: #000000;
+    font-size: 30px;
+
+    padding-right: 11%;
+}
+
+.aboutUsParagraph {
+    font-style: normal;
+    padding-left: 3%;
+    padding-right: 7%;
+    text-align: justify;
+    width: 87%;
+    font-size: 15px;
+
+    font-weight: 550;
+    color: rgb(51, 51, 51);
+    line-height: 24px;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+
+}
+
+@media (min-width: 320px) and (max-width: 980px) {
+    .About {
+        display: block;
+        /* Change to block display */
+        width: 100%;
+        /* Set width to 100% */
+        padding: 0;
+        /* Remove padding to make it full width */
+        padding-bottom: 8vh;
+    }
+
+    .aboutLeft {
+        width: 100%;
+        /* Set width to 100% */
+        text-align: center;
+        padding-top: 10vh;
+    }
+
+    .aboutImg {
+        max-width: 80%;
+        max-height: 98%;
+        text-align: center;
+        padding-left: 0;
+        /* Remove padding */
+    }
+
+    .aboutright {
+        width: 100%;
+        /* Set width to 100% */
+        padding-right: 0;
+        /* Remove padding */
+        line-height: normal;
+        /* Reset line-height */
+    }
+
+    .urranHeading {
+        padding: 5vh 5% 0 5%;
+        /* Remove padding */
+        text-align: start;
+        /* Center align heading */
+    }
+
+    .aboutUsParagraph {
+        margin: 0 !important;
+        margin-left: 0px;
+        padding: 0px 5%;
+        /* Remove padding */
+        text-align: center;
+        /* Center align text */
+        width: 90%;
+        /* Set width to 100% */
+        text-align: justify;
+        font-size: small;
+        font-weight: 550;
+        color: #333333;
+    }
+}
+
+
+@media (min-width: 981px) and (max-width: 1400px) {
+
+
+    .aboutImg {
+        max-width: 84%;
+
+    }
+}
+
+
+.training {
+    width: 100%;
+    background-color: #F7F8FB;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trainig_cnt {
+    display: flex;
+    width: 85%;
+    padding: 20px 0px 27px 0px;
+
+}
+
+
+
+.weeks,
+.digitalSkill,
+.individualsTrain {
+    flex: 1;
+    /* Each div takes 33% of the available width */
+    text-align: center;
+    /* Center-align the content in each div */
+
+    padding: 10px;
+    /* Optional: Add padding for spacing */
+    box-sizing: border-box;
+    /* Optional: Include padding and borders in the width */
+}
+
+.weeks h1 {
+    color: #BB2026;
+    font-weight: 500;
+    font-size: 70px;
+    margin: 1vh 0;
+
+}
+
+.weeks_p {
+    color: #000000;
+    font-weight: bold;
+}
+
+.digitalSkill h1 {
+
+    color: #BB2026;
+    font-weight: 500;
+    font-size: 70px;
+    margin: 1vh 0;
+
+}
+
+.digital_p {
+    color: #000000;
+    font-weight: bold;
+}
+
+.individualsTrain h1 {
+
+    color: #BB2026;
+    font-weight: 500;
+    font-size: 70px;
+    margin: 1vh 0;
+
+}
+
+.individuals_p {
+
+    color: #000000;
+    font-weight: bold;
+}
+
+@media (max-width: 980px) {
+    .training {
+        height: 90vh;
+        /* Adjust height as needed for small screens */
+    }
+
+    .trainig_cnt {
+        flex-direction: column;
+        /* Stack divs vertically for small screens */
+        align-items: center;
+        /* Center-align the content */
+        width: 100%;
+        /* Full width for small screens */
+        border: none;
+        /* Remove border for small screens */
+        padding: 0;
+        /* Remove padding for small screens */
+    }
+
+    .weeks,
+    .digitalSkill,
+    .individualsTrain {
+        flex: none;
+        /* Reset flex to default (no width percentages) for small screens */
+        text-align: center;
+        /* Center-align the content in each div */
+        border: none;
+        /* Remove border for small screens */
+        padding: 10px;
+        /* Optional: Add padding for spacing */
+        box-sizing: border-box;
+        /* Optional: Include padding and borders in the width */
+        max-width: 100%;
+        /* Full width for small screens */
+    }
+}
+
+.ourAim {
+    width: 100;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.ourAimMainContainer {
+
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 0;
+}
+
+
+.ourAimCtn {
+
+    width: 85%;
+    display: flex;
+
+    color: #333333;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+
+.ourAimCtnLeft,
+.ourAimCtnMid,
+.ourAimCtnRight {
+    flex: 1;
+    /* Each div takes 33% of the available width */
+    text-align: center;
+    /* Center-align the content in each div */
+
+    padding: 10px;
+    /* Optional: Add padding for spacing */
+    box-sizing: border-box;
+    /* Optional: Include padding and borders in the width */
+}
+
+.DigitalHeading {
+
+    color: #000000;
+    font-size: 16px;
+
+}
+
+.BridgingHeading {
+
+    color: #000000;
+    font-size: 16px;
+}
+
+.IncubatingHeading {
+    color: #000000;
+    font-size: 16px;
+
+}
+
+@media screen and (max-width: 980px) {
+    .ourAimCtn {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .ourAimCtnLeft,
+    .ourAimCtnMid,
+    .ourAimCtnRight {
+        width: 100%;
+        text-align: center;
+    }
+
+    .DigitalHeading,
+    .BridgingHeading,
+    .IncubatingHeading,
+    .ourAimCtnLeft p,
+    .ourAimCtnMid p,
+    .ourAimCtnRight p {
+        font-size: 14px;
+        /* Adjust the font size to your preference */
+        padding: 0 5%;
+    }
+}
+
+.youngLeaderMain {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.youngLeaderctn {
+    width: 85%;
+    border: 1px saddlebrown;
+    text-align: center;
+    padding: 5vh 0px;
+}
+
+.izza {
+    padding: 1vh 0px;
+    width: 125px;
+
+}
+
+.youngLeaderHeading {
+    color: #000000;
+}
+
+.Ylp {
+    padding: 0.8vh 10vh;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 22px;
+
+}
+
+.EzzaN {
+    font-size: 16px;
+}
+
+.ProgramP {
+    color: #C8B2AA;
+    font-size: 14px;
+}
+
+.bsS {
+    font-size: 13px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.linkedInIcon {
+
+
+    width: 40px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 1200px) {
+    .Ylp {
+        padding: 0.8vh 0vh;
+        text-align: center;
+        color: #333333;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 22px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+}
+
+.TeamMainContainer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #F7F8FB;
+    padding: 5vh 0px;
+
+}
+
+.team {
+
+    width: 80%;
+
+    text-align: center;
+    justify-content: space-around;
+    padding-bottom: 5vh;
+}
+
+.teamP {
+    padding: 4vh 5vh;
+    font-size: 15px;
+    color: #333333;
+    font-weight: bold;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.teamMemberRow1 {
+
+
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.lastRow {
+    width: 47.5%;
+}
+
+
+.imagesTeam {
+    width: 115px;
+    height: 115px;
+}
+
+.TeamMembername {
+    font-size: 17px;
+    margin: 1vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ParagraphContainer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 550;
+    line-height: 24px;
+    color: #A1A1B2;
+    margin: 0px;
+    width: 100%;
+
+
+
+}
+
+.TeamMemberCard {
+    width: 21%;
+
+}
+
+.TeamMemberCard1 {
+    width: 44.5%;
+
+}
+
+.teamMemberLastRow {
+
+    display: flex;
+    width: 41%;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 980px) {
+    .TeamMainContainer {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+
+    .TeamMainContainer {
+        display: flex
+    }
+
+    .teamP {
+        padding: 4vh 0vh;
+        font-size: 15px;
+        color: #333333;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .teamMemberRow1 {
+        display: flex;
+        flex-wrap: wrap;
+        /* Allow items to wrap to the next line */
+        justify-content: center;
+        /* Center the items horizontally */
+    }
+
+    .TeamMemberCard {
+        width: 50%;
+        /* Set the width to 48% to fit two cards in a row */
+        margin-bottom: 4vh;
+        /* Add some spacing between the cards */
+    }
+
+    .lastRow {
+        width: 100%;
+    }
+
+    .TeamMemberCard1 {
+
+        width: 50%;
+        /* Set the width to 48% to fit two cards in a row */
+        margin-bottom: 4vh;
+        /* Add some spacing between the cards */
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 576px) {
+    .TeamMainContainer {
+        display: flex;
+    }
+
+    .teamP {
+        padding: 4vh 0vh;
+        font-size: 15px;
+        color: #333333;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .teamMemberRow1 {
+        display: flex;
+        flex-wrap: wrap;
+        /* Allow items to wrap to the next line */
+        justify-content: center;
+        /* Center the items horizontally */
+    }
+
+    .TeamMemberCard,
+    .TeamMemberCard1 {
+        width: 100%;
+        /* Set the width to 100% to display one card per line */
+        margin-bottom: 4vh;
+        /* Add some spacing between the cards */
+    }
+
+    .lastRow {
+        width: 100%;
+    }
+}
+
+
+.contuctusMainContainer {
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F8FB;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 15vh;
+}
+
+.ContactHeading {
+
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.contactusFluidContainer {
+
+    width: 80%;
+
+}
+
+.formandMapContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5vh;
+
+}
+
+
+/* styles.css */
+.contuctusForm {
+
+    width: 50%;
+}
+
+#name::placeholder,
+#email::placeholder,
+#message::placeholder {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #666;
+}
+
+
+
+
+
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 86%;
+    padding: 25px;
+    margin-bottom: 15px;
+    border: 1px solid #8E8E8E;
+    background-color: #FBFBFB;
+
+    resize: none;
+}
+
+textarea {
+    height: 16vh;
+}
+
+
+
+
+
+
+.submit-button {
+
+    background-color: #E02B20;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: 550;
+    cursor: pointer;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+}
+
+.submit-button:hover::after {
+    content: ">";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.map {
+    width: 47%;
+
+}
+
+.map iframe {
+
+
+    width: 99%;
+    height: 82%;
+
+
+
+}
+
+.fa-solid {
+    font-size: 24px;
+    /* Change the icon size */
+    color: black;
+    /* Change the icon color */
+}
+
+.fa-regular {
+    font-size: 24px;
+    /* Change the icon size */
+
+}
+
+.locationIcon {
+    padding-top: 3vh;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 550;
+    background-color: #F7F8FB;
+}
+
+
+.phoneNum {
+    font-size: 2.1vh;
+    width: 100%;
+}
+
+.kpP {
+    font-size: 2.1vh;
+    width: 100%;
+}
+
+.emailP {
+    font-size: 2.1vh;
+    width: 100%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+
+    .contuctusMainContainer {
+        padding-bottom: 31vh;
+
+    }
+
+    .formandMapContainer {
+
+        flex-direction: column;
+        /* Stack elements vertically */
+        width: 100%;
+        /* Set width to 100% for this range */
+        padding-bottom: 5vh;
+    }
+
+    .contuctusForm {
+        width: 100%;
+        /* Set width to 100% for the form */
+    }
+
+
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 83%;
+        padding: 25px;
+        margin-bottom: 15px;
+        border: 1px solid #8E8E8E;
+        background-color: #FBFBFB;
+
+        resize: none;
+    }
+
+    textarea {
+        height: 14vh;
+    }
+
+    .map {
+        padding-top: 5vh;
+        width: 100%;
+        height: 50vh;
+    }
+
+
+    /* .tempryDiv{
+
+
+        width: 126%;
+        margin-left: -14%;
+      
+    } */
+
+    .locationIcon {
+        display: flex;
+        flex-direction: column;
+
+        background-color: #F7F8FB;
+    }
+}
+
+
+@media screen and (min-width: 501px) and (max-width: 980px) {
+
+    .contuctusMainContainer {
+        padding-bottom: 31vh;
+
+    }
+
+    .formandMapContainer {
+
+        flex-direction: column;
+        /* Stack elements vertically */
+        width: 100%;
+        /* Set width to 100% for this range */
+        padding-bottom: 5vh;
+    }
+
+    .contuctusForm {
+        width: 110%;
+        /* Set width to 100% for the form */
+    }
+
+
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 83%;
+        padding: 25px;
+        margin-bottom: 15px;
+        border: 1px solid #8E8E8E;
+        background-color: #FBFBFB;
+
+        resize: none;
+    }
+
+    textarea {
+        height: 14vh;
+    }
+
+    .map {
+        padding-top: 5vh;
+        width: 100%;
+        height: 59vh;
+    }
+
+
+    /* .tempryDiv{
+
+
+        width: 126%;
+        margin-left: -14%;
+      
+    } */
+
+    .locationIcon {
+        display: flex;
+        flex-direction: column;
+
+        background-color: #F7F8FB;
+    }
+}
+
+.footer {
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 3vh 0px 1vh 0px;
+}
+
+.footer_icon {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.facebook-icon {
+
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* Makes it circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.facebook-icon i {
+    font-size: 20px;
+    /* Adjust the size as needed */
+    color: black;
+    /* Facebook blue color */
+}
+
+.linkedin-icon {
+
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* Makes it circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin-icon i {
+    font-size: 20px;
+    /* Adjust the size as needed */
+    color: black;
+    /* LinkedIn blue color */
+}
+
+.footerP {
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    font-size: 15px;
+    padding: 0px 10vh;
+    line-height: 22px;
+}
+
+
+.urran_link{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.urran_link:hover {
+    /* Add the styles you want for the hover effect here */
+     /* Example background color change */
+    color: rgb(109, 106, 106); /* Example text color change */
+}
+
+.MainTestimonals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 0px 18vh 0px ;
+}
+.testimonalsContainer{
+
+    text-align: center;
+    width: 80%;
+}
+
+
+.leftandRightTestimonls{
+    display: flex;
+    padding-top: 4vh;
+    
+    }
+
+.leftTestimonals{
+
+    width: 40%;
+    
+
+}
+.heading{
+
+    font-weight: bolder;
+    font-size: 18px;
+}
+.rightTestimonals{
+width: 60%;
+
+}
+.tesmonial_image{
+    border-radius: 100px;
+    
+}
+.rightTestimonals{
+
+text-align: start;
+padding: 2vh;
+background-color: rgb(248, 248, 248) ;
+
+}
+
+.testimonialHeading{
+color: #2550ea;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.testimonialparagraph{
+    color: #333333;
+    font-weight: 400;
+}
+.description{
+    font-style: italic;
+    color: #2d2d2d;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 320px) and (max-width: 746px) {
+  
+
+    .testimonalsContainer {
+        width: 100%; 
+    }
+
+    .leftandRightTestimonls {
+        display: block; 
+    }
+
+    .leftTestimonals {
+        width: 100%; 
+        text-align: center; 
+    }
+
+    .rightTestimonals {
+        width: 100%; 
+        padding: 0;
+        text-align: center; 
+    }
+    .description{
+        padding: 2vh;
+    }
+}
+
+.carosalMain{
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F8FB;
+    padding-top: 2vh;
+    padding-bottom: 10vh;
+}
+
+.carosalconatianer{
+    width: 80%;
+    text-align: center;
+  
+    
+}
+.carosalheading h1{
+    font-size: 30px;
+    padding: 2vh 0px;
+}
+
+.cardContainer{
+    padding: 3vh 0px;
+
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+
+.leftCard, .middleCard, .rightCard{
+
+    width: 30%;
+   
+    
+    background-color: #F1F1F1;
+    padding-bottom: 8vh ;
+} 
+
+.cardImage{
+    width: 100%;
+    
+}
+
+.contentHeading{
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: bolder;
+}
+.contentParagraph{
+
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .middleCard,
+    .rightCard {
+        display: none; 
+    }
+
+    .leftCard {
+        width: 100%; 
+    }
+}
+
+

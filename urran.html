@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 , shrink-to-fit=no">
+  <title>Document</title>
+  <link rel="stylesheet" href="./urran.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+
+
+  <div>
+    
+
+   <!-- Header with Marquee -->
+<div>
+  <header class="my_header" style="position: fixed; top: 0px; z-index: 1;">
+    <!-- Adjust top value as per the navbar height -->
+    <marquee direction="left">
+      <p class="moving_text" onmouseover="this.parentElement.stop();" onmouseout="this.parentElement.start();">
+        Application for the current batch is closed. New batch will start from 1st November, 2023. Online
+        applications for the new batch will open from 5th October, 2023.
+      </p>
+    </marquee>
+  </header>
+</div>
+
+<!-- Navbar with Fixed Position -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary w-100" style="position: fixed; top: 52px; z-index: 1;">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img class="px-lg-5 px-sm-3" src="./img/urraan-logo-1.png" alt="Logo" style="height: 70px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between px-5" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link custom-font-size" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link custom-font-size" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link custom-font-size" href="#courses">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link custom-font-size" href="#team">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link custom-font-size" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link custom-font-size" href="/Login.html">Portal</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+    <!-- <nav class="navbar w-100" id="navbar">
+      <div class="logo">
+        <img src="./img/urraan-logo-1.png" alt="Logo">
+      </div>
+      <div class="burger-menu" id="burgerMenu" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <div class="nav-links" id="navLinks">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#cources">Courses</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+        <a href="/Login.html">Portal</a>
+      </div>
+    </nav> -->
+
+    <div class="myHome">
+      <div class="myHomeleft">
+        <div>
+          <h1><strong class="runwayText">Runway To</strong> <br> <strong>Digital Flight</strong></h1>
+        </div>
+
+      </div>
+      <div class="myHomeright">
+        <img loading="lazy" class="homeImg" src="./img/homeIcon.png" alt="">
+      </div>
+
+    </div>
+
+
+    <div class="About" id="about">
+
+      <div class="aboutLeft">
+        <img class="aboutImg" src="./img/about-us-4.png" alt="">
+      </div>
+      <div class="aboutright">
+        <h1 class="urranHeading"> About urran</h1>
+        <p class="aboutUsParagraph">URRAAN is a CSR (Corporate Social Responsibility) project of CODEMATICS Services
+          Pvt. Ltd. It was launched with the aim to empower our youth by providing them the right platform to learn
+          necessary digital skills, so that they can play
+          a positive role in the digital economy of Pakistan. <br> <br>
+
+          CODEMATICS is currently one of the fastest – growing IT
+          companies in the country with its products being used by over 100 million users around the world. Also, they
+          are in Strategic Partnership with Google Inc. in the Asia Pacific region. <br>
+          <br>
+          URRAAN provides two months free of cost hands-on training and internship
+          in a wide range of digital skills within Abbottabad city from Monday to Friday, 9am to 6pm. The success rate
+          of URRAAN is more than 75%, which means that majority of our candidates either start freelancing, get jobs
+          locally, or initiate their own start-ups.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="training" >
+
+      <div class="trainig_cnt">
+
+        <div class="weeks">
+          <h1>0</h1>
+
+          <div class="weeks_p">
+            <p>Weeks Training</p>
+          </div>
+        </div>
+
+        <div class="digitalSkill">
+          <h1>0</h1>
+
+          <div class="digital_p">
+            <p>Digital Skills </p>
+          </div>
+        </div>
+        <div class="individualsTrain">
+          <h1>0</h1>
+          <div class="individuals_p">
+            <p>Individuals Trained </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="ourAim">
+
+      <h1>Our Aim</h1>
+    </div>
+    <div class="ourAimMainContainer">
+      <div class="ourAimCtn">
+
+
+        <div class="ourAimCtnLeft">
+          <div><img src="./img/Group-250-1.png" alt=""></div>
+          <div class="DigitalHeading">
+            <h2>Digital Skills & Training Program</h2>
+          </div>
+          <div>
+            <p style="font-weight: bold;">Provide digital skills and training to our youth including
+              but not limited to students, graduates, professionals and housewives.
+            </p>
+          </div>
+        </div>
+        <div class="ourAimCtnMid">
+          <div> <img src="./img/group-250-2.png" alt=""></div>
+          <div class="BridgingHeading">
+            <h2>Bridging Gap Between Academia & Industry</h2>
+          </div>
+          <div>
+            <p style="font-weight: bold;">Bridge the gap between Academia and Industry by arranging seminars about
+              latest Technological developments as
+              well as helping students with their projects by providing external supervision.
+            </p>
+          </div>
+        </div>
+
+        <div class="ourAimCtnRight">
+          <div> <img src="./img/Group-250-3.png" alt=""></div>
+
+
+          <div class="IncubatingHeading">
+            <h2>Incubating Innovative Ideas & Mentoring</h2>
+          </div>
+          <div>
+            <p style="font-weight: bold;">Incubate new ideas and start-ups. Guide founders in their
+              entrepreneurial journey and provide grants / investments to promising start-ups.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="carosalMain" id="courses">
+
+      <div class="carosalconatianer">
+        <div class="carosalheading">
+
+
+          <h1>Training Areas</h1>
+
+        </div>
+
+        <div class="cardContainer">
+
+          <div class="leftCard">
+            <div> <img class="cardImage" src="./img/3d-animation-3 (1).png" alt=""></div>
+            <div class="contentDivision">
+              <h2 class="contentHeading">3D-Animation</h2>
+              <p class="contentParagraph">Learn 3D modling and texturing, character creation, and much more using Maya
+                3D software</p>
+            </div>
+          </div>
+
+
+          <div class="middleCard">
+            <div> <img class="cardImage" src="./img/flutter.png" alt=""></div>
+            <div class="contentDivision">
+              <h2 class="contentHeading">Flutter App Development</h2>
+              <p class="contentParagraph"> Learn how to develop Andrioad and ios Applications at the same time using
+                Flutter.</p>
+            </div>
+          </div>
+
+          <div class="rightCard">
+            <div> <img class="cardImage" src="./img/andriod.png" alt=""></div>
+            <div class="contentDivision">
+              <h2 class="contentHeading">Android Development</h2>
+              <p class="contentParagraph">Learn how to develop Andriod apps using coding langauges like java,
+                Kotlin,C++,C#, etc.</p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="youngLeaderMain">
+
+      <div class="youngLeaderctn">
+        <h1 class="youngLeaderHeading">Young Leader’s Program (YLP)</h1>
+        <p class="Ylp">
+          YLP is a fellowship that trains individuals to develop the skills they need to become leaders in their
+          communities and workplaces. Through rigorous hands-on workshops on soft skills, curated connections with
+          mentors in tech, and projects to put these skills into practice, YLP ensures that Urraan trainees are ready
+          to
+          become
+          the leaders of tomorrow and take on the challenges in their personal and professional lives.
+        </p>
+        <img class="izza" src="./img/izza.png" alt="">
+        <h3 class="EzzaN">Ezza Naveed</h3>
+        <p class="ProgramP">Program Designer & Mentor</p>
+        <p class="bsS">BS Social Sciences (Minerva University USA)</p>
+        <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+      </div>
+    </div>
+
+
+    <div class="TeamMainContainer" id="team">
+
+      <div class="team">
+        <div class="Leadsh">
+          <h1>Leads & Mentors</h1>
+        </div>
+        <div>
+          <p class="teamP">Here is the team of leads and mentors of URRAAN who volunteer and give time from their busy
+            schedules. URRAAN is functioning today because of their dedication,
+            hard work, focus, and devotion and we are truly blessed to have such amazing Team Members.</p>
+        </div>
+
+        <div class="teamMemberRow1">
+
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/sir-ahsan.png" alt="">
+            <h3 class="TeamMembername">Malik Ahsan Ali</h3>
+            <div class="ParagraphContainer">
+              <p>Managing Director, Codematics inc</p>
+            </div>
+            <a href=""> <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/hammad.png" alt="">
+            <h3 class="TeamMembername">Hammad Lodhi</h3>
+            <div class="ParagraphContainer">
+              <p>Chief Executive Officer, Codematics Inc</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/waseem.png" alt="">
+            <h3 class="TeamMembername">Waseem Javed</h3>
+            <div class="ParagraphContainer">
+              <p>Business Development Director, Codematics Inc</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/sir-umair.png" alt="">
+            <h3 class="TeamMembername">Umair Saeed Mughal</h3>
+            <div class="ParagraphContainer">
+              <p>Cheif Technology Officer (CTO), Codematics Inc</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+
+
+
+
+
+        </div>
+        <br> <br>
+        <div class="teamMemberRow1">
+
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/haris.png" alt="">
+            <h3 class="TeamMembername">Haris Riaz</h3>
+            <div class="ParagraphContainer">
+              <p>Program Manager, Urraan</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/kaleem.png" alt="">
+            <h3 class="TeamMembername">Kaleem Ahmad</h3>
+            <div class="ParagraphContainer">
+              <p>3D Animator/Modeler</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/ali.png" alt="">
+            <h3 class="TeamMembername">Ali Rehman</h3>
+            <div class="ParagraphContainer">
+              <p>Sr. Android Developer</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/sifat.png" alt="">
+            <h3 class="TeamMembername">Sifat Ullah Shah</h3>
+            <div class="ParagraphContainer">
+              <p>Sr. Android Developer</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+
+
+
+
+
+        </div>
+
+
+        <br> <br>
+        <div class="teamMemberRow1">
+
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/sadam.png" alt="">
+            <h3 class="TeamMembername">Saddam Shadab</h3>
+            <div class="ParagraphContainer">
+              <p>UI/UX Product Designer</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/waqar.png" alt="">
+            <h3 class="TeamMembername">Waqar Khan</h3>
+            <div class="ParagraphContainer">
+              <p>Full Stack Developer</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/shahzaib.png" alt="">
+            <h3 class="TeamMembername">Shahzeb ur Rehman</h3>
+            <div class="ParagraphContainer">
+              <p>MEVN Stack Developer</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/khizar.png" alt="">
+            <h3 class="TeamMembername">Khizar Hayat</h3>
+            <div class="ParagraphContainer">
+              <p>Game Designer</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+        </div>
+
+
+        <br> <br> <br>
+        <div class="teamMemberRow1">
+
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/zaid-1.png" alt="">
+            <h3 class="TeamMembername">Zaid ul wahab</h3>
+            <div class="ParagraphContainer">
+              <p>iOS Developer</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/babar.png" alt="">
+            <h3 class="TeamMembername">Babar Ali Shah</h3>
+            <div class="ParagraphContainer">
+              <p>Full Stack Developer</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/khizar.png" alt="">
+            <h3 class="TeamMembername">Khurria Zafar</h3>
+            <div class="ParagraphContainer">
+              <p>Sr. Android Developer</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/anbar.png" alt="">
+            <h3 class="TeamMembername">Anbar Rauf</h3>
+            <div class="ParagraphContainer">
+              <p>Social Media Designer</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+
+
+
+
+
+        </div>
+
+        <br> <br> <br>
+
+        <div class="teamMemberRow1">
+
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/junaid.png" alt="">
+            <h3 class="TeamMembername">Junaid Mir</h3>
+            <div class="ParagraphContainer">
+              <p>Digital Marketing Manager</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/javeria.png" alt="">
+            <h3 class="TeamMembername">Javeria Qureshi</h3>
+            <div class="ParagraphContainer">
+              <p>Web Developer</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/aqsa.png" alt="">
+            <h3 class="TeamMembername">Aqsa Nadeem</h3>
+            <div class="ParagraphContainer">
+              <p>Game Developer</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/mursaleen.png" alt="">
+            <h3 class="TeamMembername">Mursaleen</h3>
+            <div class="ParagraphContainer">
+              <p>3D Animator/Modeler</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+
+
+
+
+
+        </div>
+
+        <br> <br> <br>
+        <div class="teamMemberRow1">
+
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/umaima.png" alt="">
+            <h3 class="TeamMembername">Umaima Malik</h3>
+            <div class="ParagraphContainer">
+              <p>3D Animator/Modeler</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/farhad.png" alt="">
+            <h3 class="TeamMembername">Farhad Younas</h3>
+            <div class="ParagraphContainer">
+              <p>IOS Developer</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/uzair.png" alt="">
+            <h3 class="TeamMembername">Uzair Khan</h3>
+            <div class="ParagraphContainer">
+              <p>SEO Expert</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/khalil.png" alt="">
+            <h3 class="TeamMembername">Khalil Ur Rehman</h3>
+            <div class="ParagraphContainer">
+              <p>3D Animator/Modeler</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+
+
+
+
+
+        </div>
+        <br> <br> <br>
+
+        <div class="teamMemberRow1">
+
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/wajiha.png" alt="">
+            <h3 class="TeamMembername">Wajiha Saif
+            </h3>
+            <div class="ParagraphContainer">
+              <p>Web Developer</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/fatima.png" alt="">
+            <h3 class="TeamMembername">Fatima Zahid</h3>
+            <div class="ParagraphContainer">
+              <p>UI/UX Designer</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/maham.png" alt="">
+            <h3 class="TeamMembername">Maham Awan</h3>
+            <div class="ParagraphContainer">
+              <p>Content Writer</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+          <div class="TeamMemberCard">
+            <img class="imagesTeam" src="./img/mishal.png" alt="">
+            <h3 class="TeamMembername">Mishal Nawaz</h3>
+            <div class="ParagraphContainer">
+              <p>Android Developer</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+
+
+
+
+
+        </div>
+        <br> <br> <br>
+        <div class="teamMemberRow1 lastRow">
+
+          <div class="TeamMemberCard1">
+            <img class="imagesTeam" src="./img/raja usama.png" alt="">
+            <h3 class="TeamMembername">Raja Usama
+            </h3>
+            <div class="ParagraphContainer">
+              <p>Web Developer</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+          <div class="TeamMemberCard1">
+            <img class="imagesTeam" src="./img/mehreen.png" alt="">
+            <h3 class="TeamMembername">Mehreen Gul</h3>
+            <div class="ParagraphContainer">
+              <p>Graphic Designer</p>
+            </div>
+            <a href=""><img class="linkedInIcon" src="./img/linked_icon.gif" alt=""></a>
+          </div>
+
+
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="MainTestimonals">
+
+      <div class="testimonalsContainer">
+        <div class="heading">
+          <h2>Urraan Success Stories</h2>
+        </div>
+        <div class="leftandRightTestimonls">
+          <div class="leftTestimonals">
+            <div> <img class="tesmonial_image" style="width: 10rem;" src="./img/muddassir.jpg" alt=""></div>
+            <div>
+              <h2 class="testimonialHeading">Muddassir Ali</h2>
+            </div>
+            <div>
+              <h3 class="testimonialparagraph">web developer urran abbottabad</h3>
+            </div>
+          </div>
+          <div class="rightTestimonals">
+            <p class="description">When I first joined Urraan, I had very little knowledge about how to initiate
+              official interactions and start conversations in a professional manner. However, through my experiences
+              and continuous learning, I've come a long way. Today, I find myself in a much better stage of my
+              professional journey. I've transitioned into the world of freelancing on platforms like Fiverr, and it has
+              been a rewarding experience. My monthly income from my freelance work typically ranges from 24,000 to
+              30,000, which has provided me with a sense of financial stability and independence. Additionally, I'm on
+              the verge of achieving the Level 1 badge on Fiverr, which is a significant milestone for any freelancer.
+              This badge not only signifies my dedication and commitment to delivering quality work but also opens up
+              new opportunities for me in the freelance marketplace. I'm excited about the future and the prospects it
+              holds for my professional growth and success.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contuctusMainContainer" id="contact">
+
+      <div class="contactusFluidContainer">
+
+        <div class="ContactHeading">
+
+          <h2>Contact</h2>
+        </div>
+
+        <div class="formandMapContainer">
+          <div class="contuctusForm">
+            <form action="process_form.php" method="post">
+              <input type="text" id="name" name="name" placeholder="Name" required>
+              <input type="email" id="email" name="email" placeholder="Email" required>
+              <textarea id="message" name="message" placeholder="Message" required></textarea>
+              <button type="submit" class="submit-button">Send</button>
+            </form>
+          </div>
+
+          <div class="map">
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206.25591285912208!2d73.2353743160217!3d34.19505912773834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38de305bd688a9c1%3A0xc56a00aaf6339e60!2sCodematics%20Services%20(Pvt)%20Ltd.!5e0!3m2!1sen!2s!4v1692943886711!5m2!1sen!2s"
+              style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <div class="locationIcon">
+              <div>
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="kpP">KP IT Park, Abbottabad, <br> Pakistan.</p>
+              </div>
+              <div>
+                <i class="fa-solid fa-phone"></i>
+                <p class="phoneNum">+923305375289</p>
+              </div>
+              <div>
+                <i class="fa-regular fa-envelope"></i>
+                <p class="emailP"> &nbsp;muddassirali8089@gmail.com</p>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer">
+
+      <div class="footer_icon">
+        <div class="facebook-icon">
+          <a href=""><i class="fab fa-facebook-f"></i></a>
+        </div>
+        <div class="linkedin-icon">
+          <a href=""><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footerP">
+        <p>Copyrights © 2022 <span> <a class="urran_link" href=""> Urraan </a> </span> All Rights Reserved. A CSR
+          Project of <span> <a class="urran_link" href=""> Codematics Inc. </a> </span></p>
+      </div>
+    </div>
+
+  </div>
+  <!-- end of main division -->
+
+
+
+
+  <script src="./js/script.js"></script>
+
+
+
+</body>
+
+</html>
