@@ -666,7 +666,6 @@ width: 100%;
 .team {
 
     width: 80%;
-
     text-align: center;
     justify-content: space-around;
     padding-bottom: 5vh;
@@ -683,9 +682,10 @@ width: 100%;
 
 .teamMemberRow1 {
 
-
     display: flex;
-    justify-content: space-between;
+    justify-content: space-arround;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    gap: 5%; /* Add a gap between the cards for consistent spacing */
 
 
 
@@ -722,6 +722,7 @@ width: 100%;
 
 .TeamMemberCard {
     width: 21%;
+    margin-bottom: 20px;
 
 }
 
@@ -737,13 +738,24 @@ width: 100%;
     justify-content: space-between;
 }
 
-@media screen and (max-width: 980px) {
-    .TeamMainContainer {
-        display: none;
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .TeamMemberCard {
+        width: 46%; /* Set width for 2 cards in a row */
+    }
+
+    .teamMemberRow1 {
+        justify-content: space-between; /* Space cards evenly in two columns */
     }
 }
 
-@media screen and (min-width: 576px) and (max-width: 768px) {
+/* @media screen and (max-width: 980px) {
+    .TeamMainContainer {
+        display: none;
+    }
+} */
+
+/* @media screen and (min-width: 576px) and (max-width: 768px) {
 
     .TeamMainContainer {
         display: flex
@@ -760,16 +772,16 @@ width: 100%;
     .teamMemberRow1 {
         display: flex;
         flex-wrap: wrap;
-        /* Allow items to wrap to the next line */
+        
         justify-content: center;
-        /* Center the items horizontally */
+        
     }
 
     .TeamMemberCard {
         width: 50%;
-        /* Set the width to 48% to fit two cards in a row */
+        
         margin-bottom: 4vh;
-        /* Add some spacing between the cards */
+        
     }
 
     .lastRow {
@@ -779,11 +791,11 @@ width: 100%;
     .TeamMemberCard1 {
 
         width: 50%;
-        /* Set the width to 48% to fit two cards in a row */
+        
         margin-bottom: 4vh;
-        /* Add some spacing between the cards */
+        
     }
-}
+} */
 
 @media screen and (min-width: 320px) and (max-width: 576px) {
     .TeamMainContainer {
@@ -814,9 +826,7 @@ width: 100%;
         /* Add some spacing between the cards */
     }
 
-    .lastRow {
-        width: 100%;
-    }
+    
 }
 
 
